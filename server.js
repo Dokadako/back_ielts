@@ -2,7 +2,7 @@ const express = require('express');
 const axios = require('axios');
 const cors = require('cors');
 const app = express();
-const port = 3001;
+const port = 3000;
 
 const API_KEY = 'ODVlNjJhMzNhYjRiNGVlNzg0MGNiZmQyZDdlMzAzZjEtMTcyMDQ3OTI1OQ==';
 app.use(cors()); // Enable CORS
