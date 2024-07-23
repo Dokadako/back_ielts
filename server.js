@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const port = 3001;
 
-const API_KEY = '';
+const API_KEY = 'ODVlNjJhMzNhYjRiNGVlNzg0MGNiZmQyZDdlMzAzZjEtMTcyMDQ3OTI1OQ==';
 app.use(cors()); // Enable CORS
 
 app.post('/get-access-token', async (req, res) => {
