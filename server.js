@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3000; // Use the PORT environment variable
 
-const API_KEY = 'YTc3NzNlZTU5MTc2NGMyOTgxMTVmMThiZjE3MDA0MzQtMTcyMDEyNTcxNw==';
+const API_KEY = 'YTg1YmY0NzQ0MWNkNDVmYmFmYjE1OWZlMmE2OWI3ODUtMTcyMjI4ODc3Mg==';
 app.use(cors()); // Enable CORS
 app.use(express.json()); // Parse JSON request bodies
 
